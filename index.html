@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17110f">
+  <meta name="description" content="Aura Beauty — beleza, cuidado e bem-estar. Descubra os nossos serviços e marque o seu momento.">
+  <title>Aura Beauty — O teu momento de beleza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#17110f;--panel:#211916;--cream:#f8f0e8;--muted:#b9a9a0;--rose:#d9a08f;--rose-dark:#a96f60;--line:rgba(248,240,232,.14);--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--cream);font-family:var(--sans);line-height:1.6}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(1160px,calc(100% - 44px));margin:auto}.topline{background:var(--rose);color:#211916;text-align:center;font-size:12px;letter-spacing:.12em;padding:9px 12px;text-transform:uppercase}.header{position:sticky;top:0;z-index:20;background:rgba(23,17,15,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{font-family:var(--serif);font-size:27px;letter-spacing:.03em;line-height:1}.brand span{color:var(--rose)}.brand small{display:block;font:9px var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-top:7px}.navlinks{display:flex;gap:28px;align-items:center;font-size:13px;color:#e0d4cc}.navlinks a:hover{color:var(--rose)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 21px;border:1px solid var(--rose);background:var(--rose);color:#211916;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:.25s}.btn:hover{background:transparent;color:var(--rose)}.btn-outline{background:transparent;color:var(--cream);border-color:var(--line)}.btn-outline:hover{border-color:var(--rose);color:var(--rose)}.menu-toggle{display:none;background:none;color:var(--cream);border:1px solid var(--line);padding:7px 11px;font-size:20px}.hero{padding:64px 0 76px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr 1.02fr;align-items:center;gap:64px}.eyebrow{color:var(--rose);text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:700;display:flex;align-items:center;gap:12px}.eyebrow:before{content:'';width:30px;height:1px;background:var(--rose)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.13}h1{font-size:clamp(44px,5.6vw,76px);letter-spacing:-.035em;margin:22px 0}h1 em,h2 em{font-weight:400;color:var(--rose)}.hero-copy{max-width:490px;color:var(--muted);font-size:15px;margin-bottom:30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.trust-row{display:flex;align-items:center;gap:18px;margin-top:36px;color:var(--muted);font-size:12px}.stars{color:var(--rose);letter-spacing:3px;font-size:15px}.hero-visual{position:relative;min-height:530px}.hero-img{position:absolute;inset:0 32px 25px 0;width:calc(100% - 32px);height:calc(100% - 25px);object-fit:cover;object-position:center 40%;filter:saturate(.78);border-radius:180px 180px 4px 4px}.image-frame{position:absolute;inset:16px 0 0 16px;border:1px solid rgba(217,160,143,.6);border-radius:180px 180px 4px 4px;pointer-events:none}.round-note{position:absolute;right:-5px;bottom:4px;width:130px;height:130px;border-radius:50%;background:var(--rose);color:#211916;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transform:rotate(8deg)}.round-note strong{font:30px var(--serif)}.round-note span{font-size:10px;text-transform:uppercase;letter-spacing:.08em}.section{padding:92px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 44px}.section-head .eyebrow{justify-content:center}.section-head .eyebrow:after{content:'';width:30px;height:1px;background:var(--rose)}h2{font-size:clamp(34px,4vw,52px);margin:17px 0}.section-head p{color:var(--muted);font-size:14px}.services{background:#201815}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{border:1px solid var(--line);background:var(--bg);padding:29px 26px 26px;transition:transform .25s,border-color .25s}.service-card:hover{transform:translateY(-5px);border-color:var(--rose)}.service-icon{width:48px;height:48px;border:1px solid rgba(217,160,143,.5);border-radius:50%;display:grid;place-items:center;color:var(--rose);font-size:21px;margin-bottom:24px}.service-card h3{font-size:25px;margin-bottom:12px}.service-card p{font-size:13px;color:var(--muted);min-height:63px}.service-bottom{border-top:1px solid var(--line);padding-top:16px;display:flex;align-items:center;justify-content:space-between;color:var(--rose);font-size:12px;letter-spacing:.05em}.service-bottom a{font-weight:700}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}.about-image-wrap{position:relative;padding:0 25px 25px 0}.about-image{width:100%;height:490px;object-fit:cover;display:block;filter:saturate(.75)}.about-image-wrap:after{content:'';position:absolute;right:0;bottom:0;width:78%;height:78%;border:1px solid var(--rose);z-index:-1}.about-copy p{color:var(--muted);font-size:14px}.benefits{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0 30px}.benefit{display:flex;gap:10px;font-size:12px;color:#e6d9d0}.benefit span{color:var(--rose)}.quote{background:#211916;padding:70px 20px;text-align:center}.quote blockquote{font:clamp(25px,3.5vw,40px)/1.35 var(--serif);max-width:800px;margin:0 auto 22px}.quote cite{font-style:normal;text-transform:uppercase;letter-spacing:.18em;font-size:10px;color:var(--rose)}.booking{background:#201815}.booking-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:start}.booking-info p{color:var(--muted);font-size:14px}.contact-line{display:flex;gap:14px;margin-top:22px;align-items:flex-start}.contact-line .symbol{color:var(--rose);font-size:18px}.contact-line strong{display:block;font-size:13px}.contact-line small{color:var(--muted);font-size:12px}.booking-form{padding:32px;background:var(--bg);border:1px solid var(--line)}.booking-form h3{font-size:28px;margin-bottom:7px}.booking-form>p{font-size:12px;color:var(--muted);margin-bottom:25px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#e7d9d1}.field input,.field select,.field textarea{width:100%;background:#211916;border:1px solid var(--line);color:var(--cream);padding:12px 13px;outline:none;border-radius:0}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--rose)}.field select option{background:var(--bg)}.field textarea{min-height:88px;resize:vertical}.booking-form .btn{width:100%;margin-top:20px}.form-note{font-size:11px;color:var(--muted);margin:13px 0 0}.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{padding:26px;border:1px solid var(--line)}.review .stars{font-size:12px}.review p{font:18px/1.5 var(--serif);margin:18px 0 22px}.review strong{font-size:12px}.review small{display:block;color:var(--muted);font-size:11px}.footer{border-top:1px solid var(--line);padding:42px 0 22px}.footer-top{display:flex;justify-content:space-between;gap:30px;align-items:center;padding-bottom:30px}.footer-top p{color:var(--muted);font-size:12px;margin:10px 0 0}.footer-links{display:flex;gap:20px;font-size:12px;color:var(--muted)}.footer-bottom{border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:10px}.whatsapp{position:fixed;right:22px;bottom:22px;z-index:15;background:#287b54;color:white;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:23px;box-shadow:0 8px 28px #0006;transition:transform .2s}.whatsapp:hover{transform:scale(1.08)}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--cream);color:var(--bg);padding:14px 20px;z-index:50;font-size:13px;transition:.25s;max-width:calc(100% - 30px)}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:850px){.navlinks{gap:15px}.nav-cta{display:none}.hero-grid{gap:35px}.hero-visual{min-height:450px}.about-grid{gap:38px}.booking-grid{gap:30px}}@media(max-width:680px){.container{width:min(100% - 32px,540px)}.nav{height:70px}.menu-toggle{display:block}.navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:var(--bg);padding:20px 24px 25px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.hero{padding:45px 0 55px}.hero-grid,.about-grid,.booking-grid{grid-template-columns:1fr}.hero-grid{gap:40px}.hero-visual{min-height:410px;max-width:480px;width:100%;margin:auto}.hero-copy{font-size:14px}.section{padding:66px 0}.service-grid,.testimonials-grid{grid-template-columns:1fr}.service-card p{min-height:0}.about-image{height:370px}.about-image-wrap{max-width:480px}.booking-grid{gap:35px}.booking-form{padding:23px 18px}.footer-top,.footer-bottom{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}.round-note{width:105px;height:105px}.round-note strong{font-size:25px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="topline">O teu momento de autocuidado começa aqui · Marca a tua visita</div>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Aura Beauty início">aura<span>.</span><small>beauty studio</small></a>
+      <nav class="navlinks" id="navlinks" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre nós</a><a href="#avaliacoes">Avaliações</a><a href="#marcacao">Contactos</a>
+      </nav>
+      <a class="btn nav-cta" href="#marcacao">Marcar sessão ↗</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Beleza com intenção</div>
+          <h1>Cuida de ti.<br>Brilha à tua <em>maneira.</em></h1>
+          <p class="hero-copy">Um espaço pensado para abrandar, renovar a tua energia e realçar aquilo que te torna única. O teu bem-estar é o nosso ritual favorito.</p>
+          <div class="hero-actions"><a class="btn" href="#marcacao">Descobrir os serviços <span>↗</span></a><a class="btn btn-outline" href="#sobre">Conhecer o estúdio</a></div>
+          <div class="trust-row"><span class="stars">★★★★★</span><span>Detalhes que fazem a diferença</span></div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85" alt="Produtos de beleza e maquilhagem num ambiente elegante">
+          <div class="image-frame"></div><div class="round-note"><strong>100%</strong><span>dedicado a ti</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">Os nossos cuidados</div><h2>O teu ritual, <em>à tua medida.</em></h2><p>Pequenos momentos de cuidado, pensados para te fazer sentir bem por dentro e por fora.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-icon">✧</div><h3>Cuidado facial</h3><p>Momentos de limpeza e hidratação para uma rotina de pele cuidada e luminosa.</p><div class="service-bottom"><span>Personalizado</span><a href="#marcacao" data-service="Cuidado facial">Marcar ↗</a></div></article>
+          <article class="service-card"><div class="service-icon">❋</div><h3>Maquilhagem</h3><p>Looks suaves ou marcantes para celebrações, eventos especiais ou simplesmente para ti.</p><div class="service-bottom"><span>À tua escolha</span><a href="#marcacao" data-service="Maquilhagem">Marcar ↗</a></div></article>
+          <article class="service-card"><div class="service-icon">✳</div><h3>Unhas & detalhes</h3><p>Manicure cuidada, acabamentos elegantes e atenção a cada pequeno detalhe.</p><div class="service-bottom"><span>O teu estilo</span><a href="#marcacao" data-service="Unhas e manicure">Marcar ↗</a></div></article>
+          <article class="service-card"><div class="service-icon">☼</div><h3>Cuidado capilar</h3><p>Um momento para cuidar do cabelo com atenção às tuas preferências e necessidades.</p><div class="service-bottom"><span>Cuidado suave</span><a href="#marcacao" data-service="Cuidado capilar">Marcar ↗</a></div></article>
+          <article class="service-card"><div class="service-icon">♡</div><h3>Sobrancelhas & pestanas</h3><p>Realça o olhar com um acabamento adaptado ao teu rosto e ao resultado que procuras.</p><div class="service-bottom"><span>Toque delicado</span><a href="#marcacao" data-service="Sobrancelhas e pestanas">Marcar ↗</a></div></article>
+          <article class="service-card"><div class="service-icon">❀</div><h3>Momento de bem-estar</h3><p>Faz uma pausa na rotina e reserva um tempo só para ti, com tranquilidade e conforto.</p><div class="service-bottom"><span>Tempo para ti</span><a href="#marcacao" data-service="Momento de bem-estar">Marcar ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image-wrap"><img class="about-image" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=85" alt="Retrato em luz suave que inspira beleza natural" loading="lazy"></div>
+        <div class="about-copy"><div class="eyebrow">Um espaço para ti</div><h2>Beleza que começa com <em>bem-estar.</em></h2><p>Na Aura Beauty, acreditamos que cuidar da beleza é também criar espaço para respirar, ganhar confiança e celebrar a tua individualidade.</p><p>Queremos que cada visita seja tranquila, acolhedora e adaptada ao teu estilo. Sem pressas, sem fórmulas iguais para todas as pessoas — apenas cuidado com intenção.</p><div class="benefits"><div class="benefit"><span>✦</span> Atendimento atencioso</div><div class="benefit"><span>✦</span> Cuidado personalizado</div><div class="benefit"><span>✦</span> Ambiente acolhedor</div><div class="benefit"><span>✦</span> Atenção aos detalhes</div></div><a class="btn btn-outline" href="#marcacao">Vamos conversar ↗</a></div>
+      </div>
+    </section>
+    <section class="quote"><blockquote>“A beleza não é sobre parecer outra pessoa. É sobre sentires-te bem a ser quem és.”</blockquote><cite>O espírito Aura Beauty</cite></section>
+    <section class="section" id="avaliacoes">
+      <div class="container"><div class="section-head"><div class="eyebrow">Palavras que inspiram</div><h2>O cuidado sente-se <em>nos detalhes.</em></h2><p>Queremos que cada visita seja uma experiência especial, do primeiro contacto ao último detalhe.</p></div>
+        <div class="testimonials-grid">
+          <article class="review"><div class="stars">★★★★★</div><p>“Um ambiente lindo e tranquilo. Adorei a atenção aos detalhes e a forma como fui recebida.”</p><strong>Uma cliente especial</strong><small>Experiência de beleza</small></article>
+          <article class="review"><div class="stars">★★★★★</div><p>“Gostei muito de poder explicar o que queria e encontrar um serviço pensado para mim.”</p><strong>Uma cliente especial</strong><small>Cuidado personalizado</small></article>
+          <article class="review"><div class="stars">★★★★★</div><p>“Um verdadeiro momento para mim. Saí mais leve e com vontade de voltar.”</p><strong>Uma cliente especial</strong><small>Momento de bem-estar</small></article>
+        </div>
+      </div>
+    </section>
+    <section class="section booking" id="marcacao">
+      <div class="container booking-grid">
+        <div class="booking-info"><div class="eyebrow">O teu próximo momento</div><h2>Vamos reservar um tempo <em>para ti?</em></h2><p>Conta-nos o que procuras. Envia o teu pedido de marcação e combinaremos os detalhes contigo.</p>
+          <div class="contact-line"><span class="symbol">⌖</span><div><strong>Localização</strong><small>Adiciona aqui a morada do teu estúdio</small></div></div>
+          <div class="contact-line"><span class="symbol">◷</span><div><strong>Horário</strong><small>Personaliza os dias e horários de atendimento</small></div></div>
+          <div class="contact-line"><span class="symbol">✉</span><div><strong>Contacto</strong><small>Configura o teu WhatsApp ou e-mail para receber pedidos</small></div></div>
+        </div>
+        <form class="booking-form" id="bookingForm">
+          <h3>Pedido de marcação</h3><p>Preenche os dados e prepara a tua mensagem.</p>
+          <div class="form-grid">
+            <div class="field"><label for="name">O teu nome</label><input id="name" name="name" autocomplete="name" placeholder="Como te chamas?" required></div>
+            <div class="field"><label for="phone">Telefone / WhatsApp</label><input id="phone" name="phone" autocomplete="tel" placeholder="+258 ..." required></div>
+            <div class="field"><label for="service">Serviço</label><select id="service" name="service" required><option value="">Escolhe um serviço</option><option>Cuidado facial</option><option>Maquilhagem</option><option>Unhas e manicure</option><option>Cuidado capilar</option><option>Sobrancelhas e pestanas</option><option>Momento de bem-estar</option><option>Quero aconselhamento</option></select></div>
+            <div class="field"><label for="date">Data pretendida</label><input type="date" id="date" name="date" required></div>
+            <div class="field full"><label for="message">Mais detalhes (opcional)</label><textarea id="message" name="message" placeholder="Conta-nos o que gostarias de fazer..."></textarea></div>
+          </div>
+          <button class="btn" type="submit">Preparar pedido de marcação ↗</button>
+          <p class="form-note">Este formulário prepara a mensagem, mas precisa de um contacto configurado para enviar o pedido.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-top"><div><a class="brand" href="#inicio">aura<span>.</span><small>beauty studio</small></a><p>O teu momento de beleza e bem-estar.</p></div><div class="footer-links"><a href="#servicos">Serviços</a><a href="#sobre">Sobre nós</a><a href="#marcacao">Marcações</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> Aura Beauty. Todos os direitos reservados.</span><span>Feito com cuidado ♡</span></div></div></footer>
+  <a class="whatsapp" id="whatsappLink" href="#marcacao" aria-label="Contactar para marcação" title="Pedir marcação">✆</a>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const menuToggle=document.getElementById('menuToggle');
+    const navlinks=document.getElementById('navlinks');
+    menuToggle.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');menuToggle.textContent=open?'×':'☰'});
+    navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.textContent='☰'}));
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const dateInput=document.getElementById('date');const today=new Date();dateInput.min=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+    document.querySelectorAll('[data-service]').forEach(link=>link.addEventListener('click',()=>{document.getElementById('service').value=link.dataset.service}));
+    const toast=document.getElementById('toast');let toastTimer;
+    function showToast(message){toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),5000)}
+    document.getElementById('bookingForm').addEventListener('submit',e=>{e.preventDefault();const data=new FormData(e.currentTarget);const name=String(data.get('name')||'').trim();const phone=String(data.get('phone')||'').trim();const service=String(data.get('service')||'');const date=String(data.get('date')||'');const message=String(data.get('message')||'').trim();const dateFormatted=date?new Date(date+'T12:00:00').toLocaleDateString('pt-PT',{day:'2-digit',month:'long',year:'numeric'}):'a combinar';const body='Olá, Aura Beauty! Gostaria de pedir uma marcação.\n\nNome: '+name+'\nContacto: '+phone+'\nServiço: '+service+'\nData pretendida: '+dateFormatted+'\nDetalhes: '+(message||'Não indicado');showToast('Pedido preparado! Para receber mensagens automaticamente, configura o número de WhatsApp do estúdio.');const whatsappNumber='';if(whatsappNumber){window.open('https://wa.me/'+whatsappNumber+'?text='+encodeURIComponent(body),'_blank','noopener,noreferrer')}else{const blob=new Blob([body],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='pedido-marcacao-aura-beauty.txt';a.click();URL.revokeObjectURL(url)}});
+    document.getElementById('whatsappLink').addEventListener('click',e=>{e.preventDefault();showToast('Adiciona o número de WhatsApp do estúdio para ativar o contacto direto.');document.getElementById('marcacao').scrollIntoView({behavior:'smooth'})});
+  </script>
+</body>
+</html>
